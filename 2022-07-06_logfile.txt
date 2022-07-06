@@ -1,0 +1,15 @@
+2022-07-06 13:53:46.7134 INFO Here is info message from the controller.
+2022-07-06 13:53:46.7711 DEBUG Here is debug message from the controller.
+2022-07-06 13:53:46.7721 WARN Here is warn message from the controller.
+2022-07-06 13:53:46.7721 ERROR Here is error message from the controller.
+2022-07-06 17:47:04.8268 INFO Returned all rooms from database.
+2022-07-06 17:59:57.4873 INFO Returned all rooms from database.
+2022-07-06 18:25:03.3142 INFO Returned room with id: 24fd81f8-d58a-4bcc-9f35-dc6cd5641906
+2022-07-06 18:25:43.7977 ERROR Room with id: 24fd81f8-d58a-4bcc-9f35-dc6cd5641907, hasn't been found in db.
+2022-07-06 18:25:51.1998 INFO Returned room with id: 24fd81f8-d58a-4bcc-9f35-dc6cd5641906
+2022-07-06 18:43:43.8563 INFO Returned Room with details for id: 24fd81f8-d58a-4bcc-9f35-dc6cd5641906
+2022-07-06 19:01:09.8712 INFO Returned all rooms from database.
+2022-07-06 19:13:21.4017 INFO Returned all rooms from database.
+2022-07-06 19:14:37.6523 INFO Returned room with id: 08da5f57-e881-4c90-8795-58872be66466
+2022-07-06 19:14:52.3459 INFO Returned all rooms from database.
+2022-07-06 19:24:26.1641 INFO Returned all rooms from database.

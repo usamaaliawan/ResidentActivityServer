@@ -1,0 +1,948 @@
+2022-07-06 13:53:29.7212 Info Message Template Auto Format enabled
+2022-07-06 13:53:29.8205 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-07-06 13:53:29.9574 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-07-06 13:53:29.9702 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 13:53:29.9812 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 13:53:29.9812 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 13:53:29.9940 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 13:53:29.9940 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 13:53:29.9940 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 13:53:29.9940 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 13:53:29.9940 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 13:53:29.9940 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 13:53:29.9940 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 13:53:29.9940 Info Adding target FileTarget(Name=logfile)
+2022-07-06 13:53:30.0096 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-07-06 13:53:30.0096 Trace ParseRulesElement
+2022-07-06 13:53:30.0361 Debug Watching file-filter 'nlog.config' in directory: C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer
+2022-07-06 13:53:30.0384 Debug --- NLog configuration dump ---
+2022-07-06 13:53:30.0384 Debug Targets:
+2022-07-06 13:53:30.0384 Debug FileTarget(Name=logfile)
+2022-07-06 13:53:30.0384 Debug Rules:
+2022-07-06 13:53:30.0938 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2022-07-06 13:53:30.0938 Debug --- End of NLog configuration dump ---
+2022-07-06 13:53:30.1446 Trace FindReachableObject<System.Object>:
+2022-07-06 13:53:30.1769 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2022-07-06 13:53:30.1810 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-07-06 13:53:30.2217 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 13:53:30.2217 Trace   Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 13:53:30.2258 Trace   Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 13:53:30.2258 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 13:53:30.2258 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 13:53:30.2258 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 13:53:30.2258 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 13:53:30.2466 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 13:53:30.2466 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 13:53:30.2584 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 13:53:30.2584 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 13:53:30.3072 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 13:53:30.3208 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 13:53:30.3208 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 13:53:30.3208 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 13:53:30.3208 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 13:53:30.3379 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-07-06 13:53:30.3379 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-07-06 13:53:30.3925 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer\nlog.config
+2022-07-06 13:53:30.4019 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-07-06 13:53:30.4019 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-07-06 13:53:30.4019 Trace Initializing Layout Renderer: ${message}
+2022-07-06 13:53:30.4138 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 13:53:30.4138 Trace Initializing Layout Renderer: ${level}
+2022-07-06 13:53:30.4138 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 13:53:30.4138 Trace Initializing Layout Renderer: ${longdate}
+2022-07-06 13:53:30.4138 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-07-06 13:53:30.4307 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 13:53:30.4307 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 13:53:30.4307 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 13:53:30.4444 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 13:53:30.4444 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 13:53:30.4444 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 13:53:30.4618 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 13:53:30.4789 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 13:53:30.4789 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 13:53:30.4789 Trace Initializing Layout Renderer: ${shortdate}
+2022-07-06 13:53:30.4789 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 13:53:30.4789 Trace Initializing C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt
+2022-07-06 13:53:30.4950 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 13:53:30.4950 Trace Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 13:53:30.4950 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 13:53:30.4950 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 13:53:30.4950 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 13:53:30.4950 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 13:53:30.5099 Trace Initializing FileTarget(Name=logfile)
+2022-07-06 13:53:30.5313 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 13:53:30.5313 Trace  Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 13:53:30.5313 Trace  Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 13:53:30.5313 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 13:53:30.5313 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 13:53:30.5313 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 13:53:30.5313 Trace FileTarget(Name=logfile) has 2 layouts
+2022-07-06 13:53:30.5398 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-07-06 13:53:46.7016 Debug Targets configured when LogLevel >= Debug for Logger: LoggerService.LoggerManager
+2022-07-06 13:53:46.7016 Debug Logger LoggerService.LoggerManager [Debug] => logfile
+2022-07-06 13:53:46.7016 Debug Logger LoggerService.LoggerManager [Info] => logfile
+2022-07-06 13:53:46.7016 Debug Logger LoggerService.LoggerManager [Warn] => logfile
+2022-07-06 13:53:46.7016 Debug Logger LoggerService.LoggerManager [Error] => logfile
+2022-07-06 13:53:46.7016 Debug Logger LoggerService.LoggerManager [Fatal] => logfile
+2022-07-06 13:53:46.7414 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt'
+2022-07-06 13:53:46.7414 Debug FileTarget(Name=logfile): Creating file appender: C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt
+2022-07-06 13:53:46.7414 Trace FileTarget(Name=logfile): Opening C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt with allowFileSharedWriting=False
+2022-07-06 13:54:35.8837 Info AppDomain Shutting down. LogFactory closing...
+2022-07-06 13:54:35.8837 Debug Stopping file watching for path 'C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer' filter 'nlog.config'
+2022-07-06 13:54:35.8837 Trace Flushing all 1 targets...
+2022-07-06 13:54:35.8995 Trace ForEachItemInParallel() 1 items
+2022-07-06 13:54:35.9149 Trace FileTarget(Name=logfile): FlushAsync
+2022-07-06 13:54:35.9149 Trace Continuation invoked: 
+2022-07-06 13:54:35.9149 Trace Parallel task completed. 0 items remaining
+2022-07-06 13:54:35.9149 Debug Flush completed
+2022-07-06 13:54:35.9149 Trace FileTarget(Name=logfile): FlushAsync Done
+2022-07-06 13:54:35.9149 Debug Targets not configured for Logger: LoggerService.LoggerManager
+2022-07-06 13:54:35.9149 Debug Closing logging configuration...
+2022-07-06 13:54:35.9149 Trace Closing FileTarget(Name=logfile)
+2022-07-06 13:54:35.9293 Debug FileTarget(Name=logfile): Closing...
+2022-07-06 13:54:35.9293 Trace FileTarget(Name=logfile): FinalizeFile 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt, isArchiving: False'
+2022-07-06 13:54:35.9293 Debug FileTarget(Name=logfile): FileAppender Closing Invalidate - C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt
+2022-07-06 13:54:35.9293 Trace FileTarget: Closing 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt'
+2022-07-06 13:54:35.9439 Debug FileTarget(Name=logfile): Closed.
+2022-07-06 13:54:35.9439 Trace Closing C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt
+2022-07-06 13:54:35.9439 Trace Closing Layout Renderer: ${literal}
+2022-07-06 13:54:35.9439 Trace Closing Layout Renderer: ${shortdate}
+2022-07-06 13:54:35.9439 Trace Closing Layout Renderer: ${literal}
+2022-07-06 13:54:35.9439 Trace Closing ${longdate} ${level:uppercase=true} ${message}
+2022-07-06 13:54:35.9439 Trace Closing Layout Renderer: ${longdate}
+2022-07-06 13:54:35.9439 Trace Closing Layout Renderer: ${literal}
+2022-07-06 13:54:35.9439 Trace Closing Layout Renderer: ${level}
+2022-07-06 13:54:35.9439 Trace Closing Layout Renderer: ${literal}
+2022-07-06 13:54:35.9439 Trace Closing Layout Renderer: ${message}
+2022-07-06 13:54:35.9439 Debug Finished closing logging configuration.
+2022-07-06 13:54:35.9439 Info LogFactory has been closed.
+2022-07-06 17:46:58.1021 Info Message Template Auto Format enabled
+2022-07-06 17:46:58.1464 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-07-06 17:46:58.2851 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-07-06 17:46:58.3253 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 17:46:58.3856 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 17:46:58.4030 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 17:46:58.4129 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 17:46:58.4129 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 17:46:58.4129 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 17:46:58.4247 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 17:46:58.4247 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 17:46:58.4247 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 17:46:58.4247 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 17:46:58.4247 Info Adding target FileTarget(Name=logfile)
+2022-07-06 17:46:58.4247 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-07-06 17:46:58.4387 Trace ParseRulesElement
+2022-07-06 17:46:58.4708 Debug Watching file-filter 'nlog.config' in directory: C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer
+2022-07-06 17:46:58.4708 Debug --- NLog configuration dump ---
+2022-07-06 17:46:58.4708 Debug Targets:
+2022-07-06 17:46:58.4708 Debug FileTarget(Name=logfile)
+2022-07-06 17:46:58.4708 Debug Rules:
+2022-07-06 17:46:58.4708 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2022-07-06 17:46:58.4708 Debug --- End of NLog configuration dump ---
+2022-07-06 17:46:58.4858 Trace FindReachableObject<System.Object>:
+2022-07-06 17:46:58.4858 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2022-07-06 17:46:58.4858 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-07-06 17:46:58.4858 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 17:46:58.4858 Trace   Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 17:46:58.4858 Trace   Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 17:46:58.4858 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 17:46:58.4858 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:46:58.4858 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 17:46:58.4858 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:46:58.4995 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 17:46:58.4995 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 17:46:58.4995 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 17:46:58.4995 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 17:46:58.4995 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:46:58.4995 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 17:46:58.4995 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:46:58.4995 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 17:46:58.4995 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 17:46:58.4995 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-07-06 17:46:58.4995 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-07-06 17:46:58.4995 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer\nlog.config
+2022-07-06 17:46:58.5181 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-07-06 17:46:58.5181 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-07-06 17:46:58.5181 Trace Initializing Layout Renderer: ${message}
+2022-07-06 17:46:58.5181 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 17:46:58.5181 Trace Initializing Layout Renderer: ${level}
+2022-07-06 17:46:58.5181 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 17:46:58.5181 Trace Initializing Layout Renderer: ${longdate}
+2022-07-06 17:46:58.5181 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-07-06 17:46:58.5362 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 17:46:58.5362 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 17:46:58.5362 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 17:46:58.5362 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 17:46:58.5362 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:46:58.5362 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 17:46:58.5362 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:46:58.5362 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 17:46:58.5362 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 17:46:58.5362 Trace Initializing Layout Renderer: ${shortdate}
+2022-07-06 17:46:58.5362 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 17:46:58.5362 Trace Initializing C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt
+2022-07-06 17:46:58.5455 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 17:46:58.5455 Trace Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 17:46:58.5455 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 17:46:58.5455 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:46:58.5455 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 17:46:58.5455 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:46:58.5455 Trace Initializing FileTarget(Name=logfile)
+2022-07-06 17:46:58.5455 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-07-06 17:46:58.5455 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 17:46:58.5455 Trace  Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 17:46:58.5455 Trace  Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 17:46:58.5636 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 17:46:58.5636 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 17:46:58.5636 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 17:46:58.5636 Trace FileTarget(Name=logfile) has 2 layouts
+2022-07-06 17:46:58.5787 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-07-06 17:47:04.8099 Debug Targets configured when LogLevel >= Debug for Logger: LoggerService.LoggerManager
+2022-07-06 17:47:04.8142 Debug Logger LoggerService.LoggerManager [Debug] => logfile
+2022-07-06 17:47:04.8142 Debug Logger LoggerService.LoggerManager [Info] => logfile
+2022-07-06 17:47:04.8142 Debug Logger LoggerService.LoggerManager [Warn] => logfile
+2022-07-06 17:47:04.8142 Debug Logger LoggerService.LoggerManager [Error] => logfile
+2022-07-06 17:47:04.8268 Debug Logger LoggerService.LoggerManager [Fatal] => logfile
+2022-07-06 17:47:04.8612 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt'
+2022-07-06 17:47:04.8612 Debug FileTarget(Name=logfile): Creating file appender: C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt
+2022-07-06 17:47:04.8758 Trace FileTarget(Name=logfile): Opening C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt with allowFileSharedWriting=False
+2022-07-06 17:59:52.7167 Info Message Template Auto Format enabled
+2022-07-06 17:59:52.7727 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-07-06 17:59:52.8893 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-07-06 17:59:52.9073 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 17:59:52.9262 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 17:59:52.9367 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 17:59:52.9367 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 17:59:52.9367 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 17:59:52.9367 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 17:59:52.9557 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 17:59:52.9557 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 17:59:52.9557 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 17:59:52.9557 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 17:59:52.9557 Info Adding target FileTarget(Name=logfile)
+2022-07-06 17:59:52.9669 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-07-06 17:59:52.9669 Trace ParseRulesElement
+2022-07-06 17:59:53.0098 Debug Watching file-filter 'nlog.config' in directory: C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer
+2022-07-06 17:59:53.0137 Debug --- NLog configuration dump ---
+2022-07-06 17:59:53.0137 Debug Targets:
+2022-07-06 17:59:53.0137 Debug FileTarget(Name=logfile)
+2022-07-06 17:59:53.0137 Debug Rules:
+2022-07-06 17:59:53.0137 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2022-07-06 17:59:53.0137 Debug --- End of NLog configuration dump ---
+2022-07-06 17:59:53.0329 Trace FindReachableObject<System.Object>:
+2022-07-06 17:59:53.0329 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2022-07-06 17:59:53.0329 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-07-06 17:59:53.0329 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 17:59:53.0329 Trace   Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 17:59:53.0462 Trace   Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 17:59:53.0462 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 17:59:53.0462 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:59:53.0462 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 17:59:53.0462 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:59:53.0462 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 17:59:53.0462 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 17:59:53.0462 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 17:59:53.0462 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 17:59:53.0462 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:59:53.0462 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 17:59:53.0462 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:59:53.0462 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 17:59:53.0462 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 17:59:53.0612 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-07-06 17:59:53.0612 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-07-06 17:59:53.0612 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer\nlog.config
+2022-07-06 17:59:53.0798 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-07-06 17:59:53.0922 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-07-06 17:59:53.0922 Trace Initializing Layout Renderer: ${message}
+2022-07-06 17:59:53.0922 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 17:59:53.0922 Trace Initializing Layout Renderer: ${level}
+2022-07-06 17:59:53.0922 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 17:59:53.0922 Trace Initializing Layout Renderer: ${longdate}
+2022-07-06 17:59:53.1170 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-07-06 17:59:53.1242 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 17:59:53.1242 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 17:59:53.1242 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 17:59:53.1242 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 17:59:53.1242 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:59:53.1242 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 17:59:53.1242 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:59:53.1242 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 17:59:53.1242 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 17:59:53.1242 Trace Initializing Layout Renderer: ${shortdate}
+2022-07-06 17:59:53.1242 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 17:59:53.1242 Trace Initializing C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt
+2022-07-06 17:59:53.1242 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 17:59:53.1242 Trace Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 17:59:53.1242 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 17:59:53.1391 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:59:53.1391 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 17:59:53.1391 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 17:59:53.1391 Trace Initializing FileTarget(Name=logfile)
+2022-07-06 17:59:53.1391 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-07-06 17:59:53.1391 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 17:59:53.1391 Trace  Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 17:59:53.1391 Trace  Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 17:59:53.1391 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 17:59:53.1391 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 17:59:53.2101 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 17:59:53.2101 Trace FileTarget(Name=logfile) has 2 layouts
+2022-07-06 17:59:53.2101 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-07-06 17:59:57.4736 Debug Targets configured when LogLevel >= Debug for Logger: LoggerService.LoggerManager
+2022-07-06 17:59:57.4736 Debug Logger LoggerService.LoggerManager [Debug] => logfile
+2022-07-06 17:59:57.4736 Debug Logger LoggerService.LoggerManager [Info] => logfile
+2022-07-06 17:59:57.4873 Debug Logger LoggerService.LoggerManager [Warn] => logfile
+2022-07-06 17:59:57.4873 Debug Logger LoggerService.LoggerManager [Error] => logfile
+2022-07-06 17:59:57.4873 Debug Logger LoggerService.LoggerManager [Fatal] => logfile
+2022-07-06 17:59:57.5182 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt'
+2022-07-06 17:59:57.5182 Debug FileTarget(Name=logfile): Creating file appender: C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt
+2022-07-06 17:59:57.5182 Trace FileTarget(Name=logfile): Opening C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt with allowFileSharedWriting=False
+2022-07-06 18:24:50.5037 Info Message Template Auto Format enabled
+2022-07-06 18:24:50.5469 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-07-06 18:24:50.6983 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-07-06 18:24:50.7213 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:24:50.7439 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:24:50.7551 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 18:24:50.7551 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:24:50.7551 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:24:50.7639 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 18:24:50.7639 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:24:50.7639 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 18:24:50.7639 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:24:50.7639 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 18:24:50.7639 Info Adding target FileTarget(Name=logfile)
+2022-07-06 18:24:50.7639 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-07-06 18:24:50.7784 Trace ParseRulesElement
+2022-07-06 18:24:50.8258 Debug Watching file-filter 'nlog.config' in directory: C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer
+2022-07-06 18:24:50.8258 Debug --- NLog configuration dump ---
+2022-07-06 18:24:50.8258 Debug Targets:
+2022-07-06 18:24:50.8258 Debug FileTarget(Name=logfile)
+2022-07-06 18:24:50.8258 Debug Rules:
+2022-07-06 18:24:50.8258 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2022-07-06 18:24:50.8258 Debug --- End of NLog configuration dump ---
+2022-07-06 18:24:50.8493 Trace FindReachableObject<System.Object>:
+2022-07-06 18:24:50.8493 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2022-07-06 18:24:50.8493 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-07-06 18:24:50.8574 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 18:24:50.8574 Trace   Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 18:24:50.8574 Trace   Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:24:50.8574 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:24:50.8574 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:24:50.8574 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 18:24:50.8574 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:24:50.8574 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 18:24:50.8574 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:24:50.8574 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:24:50.8574 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 18:24:50.8574 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:24:50.8574 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 18:24:50.8574 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:24:50.8574 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 18:24:50.8574 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 18:24:50.8574 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-07-06 18:24:50.8574 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-07-06 18:24:50.8740 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer\nlog.config
+2022-07-06 18:24:50.8740 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-07-06 18:24:50.8740 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-07-06 18:24:50.8740 Trace Initializing Layout Renderer: ${message}
+2022-07-06 18:24:50.8740 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:24:50.8740 Trace Initializing Layout Renderer: ${level}
+2022-07-06 18:24:50.8740 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:24:50.8740 Trace Initializing Layout Renderer: ${longdate}
+2022-07-06 18:24:50.8740 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-07-06 18:24:50.8901 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:24:50.8901 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:24:50.8901 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:24:50.8901 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 18:24:50.8901 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:24:50.8901 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 18:24:50.8901 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:24:50.8901 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 18:24:50.8901 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:24:50.8901 Trace Initializing Layout Renderer: ${shortdate}
+2022-07-06 18:24:50.8901 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:24:50.8901 Trace Initializing C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt
+2022-07-06 18:24:50.8901 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:24:50.8901 Trace Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:24:50.8901 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:24:50.8901 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:24:50.8901 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 18:24:50.8901 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:24:50.8901 Trace Initializing FileTarget(Name=logfile)
+2022-07-06 18:24:50.9068 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-07-06 18:24:50.9068 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 18:24:50.9068 Trace  Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 18:24:50.9068 Trace  Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:24:50.9068 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 18:24:50.9068 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:24:50.9068 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 18:24:50.9068 Trace FileTarget(Name=logfile) has 2 layouts
+2022-07-06 18:24:50.9068 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-07-06 18:25:03.2703 Debug Targets configured when LogLevel >= Debug for Logger: LoggerService.LoggerManager
+2022-07-06 18:25:03.2826 Debug Logger LoggerService.LoggerManager [Debug] => logfile
+2022-07-06 18:25:03.2959 Debug Logger LoggerService.LoggerManager [Info] => logfile
+2022-07-06 18:25:03.2959 Debug Logger LoggerService.LoggerManager [Warn] => logfile
+2022-07-06 18:25:03.2959 Debug Logger LoggerService.LoggerManager [Error] => logfile
+2022-07-06 18:25:03.2959 Debug Logger LoggerService.LoggerManager [Fatal] => logfile
+2022-07-06 18:25:03.3426 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt'
+2022-07-06 18:25:03.3426 Debug FileTarget(Name=logfile): Creating file appender: C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt
+2022-07-06 18:25:03.3426 Trace FileTarget(Name=logfile): Opening C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt with allowFileSharedWriting=False
+2022-07-06 18:25:15.1202 Info AppDomain Shutting down. LogFactory closing...
+2022-07-06 18:25:15.1270 Debug Stopping file watching for path 'C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer' filter 'nlog.config'
+2022-07-06 18:25:15.1270 Trace Flushing all 1 targets...
+2022-07-06 18:25:15.1270 Trace ForEachItemInParallel() 1 items
+2022-07-06 18:25:15.1460 Trace FileTarget(Name=logfile): FlushAsync
+2022-07-06 18:25:15.1460 Trace Continuation invoked: 
+2022-07-06 18:25:15.1460 Trace Parallel task completed. 0 items remaining
+2022-07-06 18:25:15.1460 Debug Flush completed
+2022-07-06 18:25:15.1460 Trace FileTarget(Name=logfile): FlushAsync Done
+2022-07-06 18:25:15.1460 Debug Targets not configured for Logger: LoggerService.LoggerManager
+2022-07-06 18:25:15.1548 Debug Closing logging configuration...
+2022-07-06 18:25:15.1548 Trace Closing FileTarget(Name=logfile)
+2022-07-06 18:25:15.1548 Debug FileTarget(Name=logfile): Closing...
+2022-07-06 18:25:15.1548 Trace FileTarget(Name=logfile): FinalizeFile 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt, isArchiving: False'
+2022-07-06 18:25:15.1548 Debug FileTarget(Name=logfile): FileAppender Closing Invalidate - C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt
+2022-07-06 18:25:15.1548 Trace FileTarget: Closing 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt'
+2022-07-06 18:25:15.1548 Debug FileTarget(Name=logfile): Closed.
+2022-07-06 18:25:15.1548 Trace Closing C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt
+2022-07-06 18:25:15.1708 Trace Closing Layout Renderer: ${literal}
+2022-07-06 18:25:15.1708 Trace Closing Layout Renderer: ${shortdate}
+2022-07-06 18:25:15.1708 Trace Closing Layout Renderer: ${literal}
+2022-07-06 18:25:15.1708 Trace Closing ${longdate} ${level:uppercase=true} ${message}
+2022-07-06 18:25:15.1708 Trace Closing Layout Renderer: ${longdate}
+2022-07-06 18:25:15.1708 Trace Closing Layout Renderer: ${literal}
+2022-07-06 18:25:15.1708 Trace Closing Layout Renderer: ${level}
+2022-07-06 18:25:15.1708 Trace Closing Layout Renderer: ${literal}
+2022-07-06 18:25:15.1708 Trace Closing Layout Renderer: ${message}
+2022-07-06 18:25:15.1708 Debug Finished closing logging configuration.
+2022-07-06 18:25:15.1708 Info LogFactory has been closed.
+2022-07-06 18:25:35.4988 Info Message Template Auto Format enabled
+2022-07-06 18:25:35.5455 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-07-06 18:25:35.7107 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-07-06 18:25:35.7498 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:25:35.7765 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:25:35.7889 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 18:25:35.8077 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:25:35.8166 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:25:35.8166 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 18:25:35.8350 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:25:35.8350 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 18:25:35.8350 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:25:35.8350 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 18:25:35.8350 Info Adding target FileTarget(Name=logfile)
+2022-07-06 18:25:35.8416 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-07-06 18:25:35.8416 Trace ParseRulesElement
+2022-07-06 18:25:35.8827 Debug Watching file-filter 'nlog.config' in directory: C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer
+2022-07-06 18:25:35.8827 Debug --- NLog configuration dump ---
+2022-07-06 18:25:35.8827 Debug Targets:
+2022-07-06 18:25:35.8894 Debug FileTarget(Name=logfile)
+2022-07-06 18:25:35.8894 Debug Rules:
+2022-07-06 18:25:35.8894 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2022-07-06 18:25:35.8894 Debug --- End of NLog configuration dump ---
+2022-07-06 18:25:35.8894 Trace FindReachableObject<System.Object>:
+2022-07-06 18:25:35.9040 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2022-07-06 18:25:35.9040 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-07-06 18:25:35.9040 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 18:25:35.9040 Trace   Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 18:25:35.9040 Trace   Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:25:35.9040 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:25:35.9040 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:25:35.9040 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 18:25:35.9040 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:25:35.9198 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 18:25:35.9198 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:25:35.9198 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:25:35.9198 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 18:25:35.9198 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:25:35.9198 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 18:25:35.9198 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:25:35.9198 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 18:25:35.9198 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 18:25:35.9198 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-07-06 18:25:35.9198 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-07-06 18:25:35.9198 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer\nlog.config
+2022-07-06 18:25:35.9399 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-07-06 18:25:35.9399 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-07-06 18:25:35.9399 Trace Initializing Layout Renderer: ${message}
+2022-07-06 18:25:35.9503 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:25:35.9503 Trace Initializing Layout Renderer: ${level}
+2022-07-06 18:25:35.9503 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:25:35.9503 Trace Initializing Layout Renderer: ${longdate}
+2022-07-06 18:25:35.9503 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-07-06 18:25:35.9503 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:25:35.9503 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:25:35.9503 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:25:35.9503 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 18:25:35.9503 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:25:35.9503 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 18:25:35.9503 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:25:35.9503 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 18:25:35.9680 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:25:35.9680 Trace Initializing Layout Renderer: ${shortdate}
+2022-07-06 18:25:35.9680 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:25:35.9680 Trace Initializing C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt
+2022-07-06 18:25:35.9680 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:25:35.9680 Trace Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:25:35.9680 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:25:35.9680 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:25:35.9680 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 18:25:35.9680 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:25:35.9680 Trace Initializing FileTarget(Name=logfile)
+2022-07-06 18:25:35.9680 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-07-06 18:25:35.9836 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 18:25:35.9836 Trace  Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 18:25:35.9836 Trace  Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:25:35.9836 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 18:25:35.9836 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:25:35.9836 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 18:25:35.9836 Trace FileTarget(Name=logfile) has 2 layouts
+2022-07-06 18:25:35.9836 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-07-06 18:25:43.7737 Debug Targets configured when LogLevel >= Debug for Logger: LoggerService.LoggerManager
+2022-07-06 18:25:43.7737 Debug Logger LoggerService.LoggerManager [Debug] => logfile
+2022-07-06 18:25:43.7737 Debug Logger LoggerService.LoggerManager [Info] => logfile
+2022-07-06 18:25:43.7830 Debug Logger LoggerService.LoggerManager [Warn] => logfile
+2022-07-06 18:25:43.7830 Debug Logger LoggerService.LoggerManager [Error] => logfile
+2022-07-06 18:25:43.7830 Debug Logger LoggerService.LoggerManager [Fatal] => logfile
+2022-07-06 18:25:43.8228 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt'
+2022-07-06 18:25:43.8330 Debug FileTarget(Name=logfile): Creating file appender: C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt
+2022-07-06 18:25:43.8330 Trace FileTarget(Name=logfile): Opening C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt with allowFileSharedWriting=False
+2022-07-06 18:42:34.2438 Info Message Template Auto Format enabled
+2022-07-06 18:42:34.2872 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-07-06 18:42:34.3558 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-07-06 18:42:34.3558 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:42:34.3810 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:42:34.3810 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 18:42:34.3933 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:42:34.3933 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:42:34.3933 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 18:42:34.3933 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:42:34.3933 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 18:42:34.3933 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:42:34.4022 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 18:42:34.4022 Info Adding target FileTarget(Name=logfile)
+2022-07-06 18:42:34.4022 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-07-06 18:42:34.4022 Trace ParseRulesElement
+2022-07-06 18:42:34.4336 Debug Watching file-filter 'nlog.config' in directory: C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer
+2022-07-06 18:42:34.4336 Debug --- NLog configuration dump ---
+2022-07-06 18:42:34.4336 Debug Targets:
+2022-07-06 18:42:34.4336 Debug FileTarget(Name=logfile)
+2022-07-06 18:42:34.4336 Debug Rules:
+2022-07-06 18:42:34.4336 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2022-07-06 18:42:34.4336 Debug --- End of NLog configuration dump ---
+2022-07-06 18:42:34.4518 Trace FindReachableObject<System.Object>:
+2022-07-06 18:42:34.4518 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2022-07-06 18:42:34.4518 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-07-06 18:42:34.4518 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 18:42:34.4667 Trace   Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 18:42:34.4667 Trace   Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:42:34.4667 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:42:34.4667 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:42:34.4667 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 18:42:34.4667 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:42:34.4667 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 18:42:34.4667 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:42:34.4820 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:42:34.4820 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 18:42:34.4820 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:42:34.4820 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 18:42:34.4820 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:42:34.4820 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 18:42:34.4820 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 18:42:34.4820 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-07-06 18:42:34.4820 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-07-06 18:42:34.4970 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer\nlog.config
+2022-07-06 18:42:34.4970 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-07-06 18:42:34.5119 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-07-06 18:42:34.5119 Trace Initializing Layout Renderer: ${message}
+2022-07-06 18:42:34.5119 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:42:34.5119 Trace Initializing Layout Renderer: ${level}
+2022-07-06 18:42:34.5119 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:42:34.5119 Trace Initializing Layout Renderer: ${longdate}
+2022-07-06 18:42:34.5119 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-07-06 18:42:34.5119 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:42:34.5119 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:42:34.5119 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:42:34.5119 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 18:42:34.5119 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:42:34.5119 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 18:42:34.5119 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:42:34.5274 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 18:42:34.5274 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:42:34.5274 Trace Initializing Layout Renderer: ${shortdate}
+2022-07-06 18:42:34.5274 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:42:34.5274 Trace Initializing C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt
+2022-07-06 18:42:34.5274 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:42:34.5274 Trace Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:42:34.5274 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:42:34.5274 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:42:34.5274 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 18:42:34.5274 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:42:34.5274 Trace Initializing FileTarget(Name=logfile)
+2022-07-06 18:42:34.5274 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-07-06 18:42:34.5274 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 18:42:34.5432 Trace  Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 18:42:34.5432 Trace  Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:42:34.5432 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 18:42:34.5432 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:42:34.5432 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 18:42:34.5432 Trace FileTarget(Name=logfile) has 2 layouts
+2022-07-06 18:42:34.5432 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-07-06 18:43:33.8703 Info Message Template Auto Format enabled
+2022-07-06 18:43:33.9183 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-07-06 18:43:34.0148 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-07-06 18:43:34.0384 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:43:34.0800 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:43:34.1464 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 18:43:34.1685 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:43:34.1719 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:43:34.1983 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 18:43:34.2080 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:43:34.2233 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 18:43:34.2233 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:43:34.2317 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 18:43:34.2317 Info Adding target FileTarget(Name=logfile)
+2022-07-06 18:43:34.2549 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-07-06 18:43:34.2793 Trace ParseRulesElement
+2022-07-06 18:43:34.3625 Debug Watching file-filter 'nlog.config' in directory: C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer
+2022-07-06 18:43:34.3718 Debug --- NLog configuration dump ---
+2022-07-06 18:43:34.3718 Debug Targets:
+2022-07-06 18:43:34.3718 Debug FileTarget(Name=logfile)
+2022-07-06 18:43:34.3718 Debug Rules:
+2022-07-06 18:43:34.3934 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2022-07-06 18:43:34.3934 Debug --- End of NLog configuration dump ---
+2022-07-06 18:43:34.4149 Trace FindReachableObject<System.Object>:
+2022-07-06 18:43:34.4204 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2022-07-06 18:43:34.4204 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-07-06 18:43:34.4204 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 18:43:34.4358 Trace   Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 18:43:34.4358 Trace   Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:43:34.4358 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:43:34.4358 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:43:34.4358 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 18:43:34.4498 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:43:34.4498 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 18:43:34.4498 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:43:34.4498 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:43:34.4498 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 18:43:34.4498 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:43:34.4660 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 18:43:34.4660 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:43:34.4660 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 18:43:34.4660 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 18:43:34.4660 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-07-06 18:43:34.4660 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-07-06 18:43:34.4850 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer\nlog.config
+2022-07-06 18:43:34.4850 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-07-06 18:43:34.5102 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-07-06 18:43:34.5102 Trace Initializing Layout Renderer: ${message}
+2022-07-06 18:43:34.5137 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:43:34.5137 Trace Initializing Layout Renderer: ${level}
+2022-07-06 18:43:34.5137 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:43:34.5137 Trace Initializing Layout Renderer: ${longdate}
+2022-07-06 18:43:34.5137 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-07-06 18:43:34.5305 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:43:34.5305 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:43:34.5305 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:43:34.5305 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 18:43:34.5305 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:43:34.5305 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 18:43:34.5305 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:43:34.5305 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 18:43:34.5447 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:43:34.5447 Trace Initializing Layout Renderer: ${shortdate}
+2022-07-06 18:43:34.5447 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 18:43:34.5447 Trace Initializing C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt
+2022-07-06 18:43:34.5447 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 18:43:34.5447 Trace Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:43:34.5447 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 18:43:34.5447 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:43:34.5447 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 18:43:34.5447 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 18:43:34.5447 Trace Initializing FileTarget(Name=logfile)
+2022-07-06 18:43:34.5649 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-07-06 18:43:34.5649 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 18:43:34.5649 Trace  Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 18:43:34.5649 Trace  Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 18:43:34.5649 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 18:43:34.5649 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 18:43:34.5649 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 18:43:34.5649 Trace FileTarget(Name=logfile) has 2 layouts
+2022-07-06 18:43:34.5649 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-07-06 18:43:43.8414 Debug Targets configured when LogLevel >= Debug for Logger: LoggerService.LoggerManager
+2022-07-06 18:43:43.8461 Debug Logger LoggerService.LoggerManager [Debug] => logfile
+2022-07-06 18:43:43.8461 Debug Logger LoggerService.LoggerManager [Info] => logfile
+2022-07-06 18:43:43.8461 Debug Logger LoggerService.LoggerManager [Warn] => logfile
+2022-07-06 18:43:43.8563 Debug Logger LoggerService.LoggerManager [Error] => logfile
+2022-07-06 18:43:43.8563 Debug Logger LoggerService.LoggerManager [Fatal] => logfile
+2022-07-06 18:43:43.9073 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt'
+2022-07-06 18:43:43.9238 Debug FileTarget(Name=logfile): Creating file appender: C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt
+2022-07-06 18:43:43.9238 Trace FileTarget(Name=logfile): Opening C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt with allowFileSharedWriting=False
+2022-07-06 19:00:33.0279 Info Message Template Auto Format enabled
+2022-07-06 19:00:33.0679 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-07-06 19:00:33.1298 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-07-06 19:00:33.1402 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 19:00:33.1402 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:00:33.1402 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 19:00:33.1661 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 19:00:33.1674 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:00:33.1674 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 19:00:33.1674 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:00:33.1674 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 19:00:33.1674 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:00:33.1674 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 19:00:33.1674 Info Adding target FileTarget(Name=logfile)
+2022-07-06 19:00:33.1674 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-07-06 19:00:33.1674 Trace ParseRulesElement
+2022-07-06 19:00:33.2118 Debug Watching file-filter 'nlog.config' in directory: C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer
+2022-07-06 19:00:33.2141 Debug --- NLog configuration dump ---
+2022-07-06 19:00:33.2141 Debug Targets:
+2022-07-06 19:00:33.2141 Debug FileTarget(Name=logfile)
+2022-07-06 19:00:33.2141 Debug Rules:
+2022-07-06 19:00:33.2141 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2022-07-06 19:00:33.2141 Debug --- End of NLog configuration dump ---
+2022-07-06 19:00:33.2141 Trace FindReachableObject<System.Object>:
+2022-07-06 19:00:33.2315 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2022-07-06 19:00:33.2315 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-07-06 19:00:33.2315 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 19:00:33.2315 Trace   Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 19:00:33.2315 Trace   Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 19:00:33.2315 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 19:00:33.2315 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:00:33.2459 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 19:00:33.2459 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:00:33.2459 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 19:00:33.2459 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 19:00:33.2459 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 19:00:33.2459 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 19:00:33.2459 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:00:33.2459 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 19:00:33.2459 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:00:33.2459 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 19:00:33.2459 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 19:00:33.2459 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-07-06 19:00:33.2614 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-07-06 19:00:33.2614 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer\nlog.config
+2022-07-06 19:00:33.2614 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-07-06 19:00:33.2830 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-07-06 19:00:33.2830 Trace Initializing Layout Renderer: ${message}
+2022-07-06 19:00:33.2830 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 19:00:33.2830 Trace Initializing Layout Renderer: ${level}
+2022-07-06 19:00:33.2830 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 19:00:33.2830 Trace Initializing Layout Renderer: ${longdate}
+2022-07-06 19:00:33.2830 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-07-06 19:00:33.2830 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:00:33.2830 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 19:00:33.2919 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 19:00:33.2919 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 19:00:33.2919 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:00:33.2919 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 19:00:33.2919 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:00:33.2919 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 19:00:33.2919 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 19:00:33.2919 Trace Initializing Layout Renderer: ${shortdate}
+2022-07-06 19:00:33.2919 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 19:00:33.2919 Trace Initializing C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt
+2022-07-06 19:00:33.2919 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:00:33.2919 Trace Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 19:00:33.2919 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 19:00:33.2919 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:00:33.2919 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 19:00:33.2919 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:00:33.2919 Trace Initializing FileTarget(Name=logfile)
+2022-07-06 19:00:33.2919 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-07-06 19:00:33.2919 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 19:00:33.2919 Trace  Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 19:00:33.3073 Trace  Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 19:00:33.3073 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 19:00:33.3073 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 19:00:33.3073 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 19:00:33.3073 Trace FileTarget(Name=logfile) has 2 layouts
+2022-07-06 19:00:33.3073 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-07-06 19:01:09.8484 Debug Targets configured when LogLevel >= Debug for Logger: LoggerService.LoggerManager
+2022-07-06 19:01:09.8484 Debug Logger LoggerService.LoggerManager [Debug] => logfile
+2022-07-06 19:01:09.8484 Debug Logger LoggerService.LoggerManager [Info] => logfile
+2022-07-06 19:01:09.8654 Debug Logger LoggerService.LoggerManager [Warn] => logfile
+2022-07-06 19:01:09.8654 Debug Logger LoggerService.LoggerManager [Error] => logfile
+2022-07-06 19:01:09.8712 Debug Logger LoggerService.LoggerManager [Fatal] => logfile
+2022-07-06 19:01:09.9089 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt'
+2022-07-06 19:01:09.9220 Debug FileTarget(Name=logfile): Creating file appender: C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt
+2022-07-06 19:01:09.9220 Trace FileTarget(Name=logfile): Opening C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt with allowFileSharedWriting=False
+2022-07-06 19:12:51.3671 Info Message Template Auto Format enabled
+2022-07-06 19:12:51.4041 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-07-06 19:12:51.4971 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-07-06 19:12:51.5084 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 19:12:51.5218 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:12:51.5296 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 19:12:51.5296 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 19:12:51.5296 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:12:51.5296 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 19:12:51.5296 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:12:51.5296 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 19:12:51.5434 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:12:51.5434 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 19:12:51.5434 Info Adding target FileTarget(Name=logfile)
+2022-07-06 19:12:51.5434 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-07-06 19:12:51.5434 Trace ParseRulesElement
+2022-07-06 19:12:51.5727 Debug Watching file-filter 'nlog.config' in directory: C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer
+2022-07-06 19:12:51.5750 Debug --- NLog configuration dump ---
+2022-07-06 19:12:51.5750 Debug Targets:
+2022-07-06 19:12:51.5750 Debug FileTarget(Name=logfile)
+2022-07-06 19:12:51.5750 Debug Rules:
+2022-07-06 19:12:51.5750 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2022-07-06 19:12:51.5750 Debug --- End of NLog configuration dump ---
+2022-07-06 19:12:51.5881 Trace FindReachableObject<System.Object>:
+2022-07-06 19:12:51.5881 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2022-07-06 19:12:51.5881 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-07-06 19:12:51.5881 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 19:12:51.5881 Trace   Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 19:12:51.5881 Trace   Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 19:12:51.5881 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 19:12:51.5881 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:12:51.5881 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 19:12:51.5881 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:12:51.5881 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 19:12:51.5881 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 19:12:51.5881 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 19:12:51.5881 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 19:12:51.5881 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:12:51.5881 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 19:12:51.5881 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:12:51.6033 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 19:12:51.6033 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 19:12:51.6033 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-07-06 19:12:51.6033 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-07-06 19:12:51.6033 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer\nlog.config
+2022-07-06 19:12:51.6033 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-07-06 19:12:51.6228 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-07-06 19:12:51.6228 Trace Initializing Layout Renderer: ${message}
+2022-07-06 19:12:51.6228 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 19:12:51.6228 Trace Initializing Layout Renderer: ${level}
+2022-07-06 19:12:51.6228 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 19:12:51.6228 Trace Initializing Layout Renderer: ${longdate}
+2022-07-06 19:12:51.6228 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-07-06 19:12:51.6228 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:12:51.6360 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 19:12:51.6360 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 19:12:51.6360 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 19:12:51.6360 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:12:51.6360 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 19:12:51.6360 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:12:51.6516 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 19:12:51.6516 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 19:12:51.6516 Trace Initializing Layout Renderer: ${shortdate}
+2022-07-06 19:12:51.6516 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 19:12:51.6516 Trace Initializing C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt
+2022-07-06 19:12:51.6516 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:12:51.6516 Trace Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 19:12:51.6663 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 19:12:51.6663 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:12:51.6663 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 19:12:51.6663 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:12:51.6663 Trace Initializing FileTarget(Name=logfile)
+2022-07-06 19:12:51.6663 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-07-06 19:12:51.6663 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 19:12:51.6663 Trace  Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 19:12:51.6663 Trace  Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 19:12:51.6663 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 19:12:51.6663 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 19:12:51.6663 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 19:12:51.6663 Trace FileTarget(Name=logfile) has 2 layouts
+2022-07-06 19:12:51.6663 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-07-06 19:13:21.3968 Debug Targets configured when LogLevel >= Debug for Logger: LoggerService.LoggerManager
+2022-07-06 19:13:21.4017 Debug Logger LoggerService.LoggerManager [Debug] => logfile
+2022-07-06 19:13:21.4017 Debug Logger LoggerService.LoggerManager [Info] => logfile
+2022-07-06 19:13:21.4017 Debug Logger LoggerService.LoggerManager [Warn] => logfile
+2022-07-06 19:13:21.4017 Debug Logger LoggerService.LoggerManager [Error] => logfile
+2022-07-06 19:13:21.4017 Debug Logger LoggerService.LoggerManager [Fatal] => logfile
+2022-07-06 19:13:21.4541 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt'
+2022-07-06 19:13:21.4690 Debug FileTarget(Name=logfile): Creating file appender: C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt
+2022-07-06 19:13:21.4690 Trace FileTarget(Name=logfile): Opening C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt with allowFileSharedWriting=False
+2022-07-06 19:24:04.6511 Info Message Template Auto Format enabled
+2022-07-06 19:24:04.6902 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-07-06 19:24:04.7579 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-07-06 19:24:04.7579 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 19:24:04.7768 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:24:04.7768 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 19:24:04.7870 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 19:24:04.7870 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:24:04.7870 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 19:24:04.7870 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:24:04.7870 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 19:24:04.7870 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:24:04.7870 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 19:24:04.7870 Info Adding target FileTarget(Name=logfile)
+2022-07-06 19:24:04.7870 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-07-06 19:24:04.7870 Trace ParseRulesElement
+2022-07-06 19:24:04.8238 Debug Watching file-filter 'nlog.config' in directory: C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer
+2022-07-06 19:24:04.8238 Debug --- NLog configuration dump ---
+2022-07-06 19:24:04.8238 Debug Targets:
+2022-07-06 19:24:04.8238 Debug FileTarget(Name=logfile)
+2022-07-06 19:24:04.8238 Debug Rules:
+2022-07-06 19:24:04.8238 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2022-07-06 19:24:04.8238 Debug --- End of NLog configuration dump ---
+2022-07-06 19:24:04.8378 Trace FindReachableObject<System.Object>:
+2022-07-06 19:24:04.8378 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2022-07-06 19:24:04.8378 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-07-06 19:24:04.8378 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 19:24:04.8378 Trace   Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 19:24:04.8378 Trace   Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 19:24:04.8378 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 19:24:04.8378 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:24:04.8378 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 19:24:04.8378 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:24:04.8496 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 19:24:04.8496 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 19:24:04.8496 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 19:24:04.8496 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 19:24:04.8496 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:24:04.8496 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 19:24:04.8496 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:24:04.8496 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 19:24:04.8496 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 19:24:04.8496 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-07-06 19:24:04.8496 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-07-06 19:24:04.8496 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\qadriusa\OneDrive - Constellation HomeBuilder Systems\Desktop\ResidentActivityServer\ResidentActivityServer\nlog.config
+2022-07-06 19:24:04.8496 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-07-06 19:24:04.8677 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-07-06 19:24:04.8677 Trace Initializing Layout Renderer: ${message}
+2022-07-06 19:24:04.8677 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 19:24:04.8677 Trace Initializing Layout Renderer: ${level}
+2022-07-06 19:24:04.8677 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 19:24:04.8677 Trace Initializing Layout Renderer: ${longdate}
+2022-07-06 19:24:04.8677 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-07-06 19:24:04.8677 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:24:04.8677 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 19:24:04.8677 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 19:24:04.8677 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-07-06 19:24:04.8677 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:24:04.8677 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-07-06 19:24:04.8796 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:24:04.8796 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-07-06 19:24:04.8796 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 19:24:04.8796 Trace Initializing Layout Renderer: ${shortdate}
+2022-07-06 19:24:04.8796 Trace Initializing Layout Renderer: ${literal}
+2022-07-06 19:24:04.8796 Trace Initializing C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt
+2022-07-06 19:24:04.8796 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-07-06 19:24:04.8796 Trace Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 19:24:04.8796 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-07-06 19:24:04.8796 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:24:04.8956 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-07-06 19:24:04.8956 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-07-06 19:24:04.8956 Trace Initializing FileTarget(Name=logfile)
+2022-07-06 19:24:04.8956 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-07-06 19:24:04.8956 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2022-07-06 19:24:04.8956 Trace  Scanning Property FileName 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt' NLog.Layouts
+2022-07-06 19:24:04.9114 Trace  Scanning SimpleLayout 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/${shortdate}_logfile.txt'
+2022-07-06 19:24:04.9114 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-07-06 19:24:04.9114 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-07-06 19:24:04.9114 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-07-06 19:24:04.9114 Trace FileTarget(Name=logfile) has 2 layouts
+2022-07-06 19:24:04.9114 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-07-06 19:24:26.1426 Debug Targets configured when LogLevel >= Debug for Logger: LoggerService.LoggerManager
+2022-07-06 19:24:26.1426 Debug Logger LoggerService.LoggerManager [Debug] => logfile
+2022-07-06 19:24:26.1487 Debug Logger LoggerService.LoggerManager [Info] => logfile
+2022-07-06 19:24:26.1487 Debug Logger LoggerService.LoggerManager [Warn] => logfile
+2022-07-06 19:24:26.1487 Debug Logger LoggerService.LoggerManager [Error] => logfile
+2022-07-06 19:24:26.1487 Debug Logger LoggerService.LoggerManager [Fatal] => logfile
+2022-07-06 19:24:26.1855 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt'
+2022-07-06 19:24:26.1932 Debug FileTarget(Name=logfile): Creating file appender: C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt
+2022-07-06 19:24:26.1932 Trace FileTarget(Name=logfile): Opening C:/Users/qadriusa/OneDrive - Constellation HomeBuilder Systems/Desktop/ResidentActivityServer/2022-07-06_logfile.txt with allowFileSharedWriting=False
